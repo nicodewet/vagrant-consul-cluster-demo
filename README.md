@@ -15,9 +15,6 @@ DNS interface.
 
 Let's look for an external search service that we hypothetically depend on but which we have not yet added to consul.
 
-* dig @172.20.20.10 -p 8600 search.service.consul. 
-* dig @172.20.20.20 -p 8600 search.service.consul.
-
 	Nicos-Air:vagrant-consul-cluster-demo nico$ dig @172.20.20.20 -p 8600 search.service.consul.
 	
 	; <<>> DiG 9.8.3-P1 <<>> @172.20.20.20 -p 8600 search.service.consul.
